@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Nhà máy năng lượng mặt trời Hà Nội",
+    "location": "Hà Nội, Việt Nam",
+    "capacity": "2.5 MWp",
+    "description": "Nhà máy điện mặt trời công suất 2.5 MW cấp điện cho khu công nghiệp Linh Đàm. Dự án này dự kiến tiết kiệm 3000 tấn CO2 mỗi năm.",
+    "image": "project_hanoi.jpg",
+    "created_at": "2024-01-10 09:00:00"
+  },
+  {
+    "id": 2,
+    "name": "Hệ thống năng lượng mặt trời Hải Phòng",
+    "location": "Hải Phòng, Việt Nam",
+    "capacity": "1.8 MWp",
+    "description": "Hệ thống điện mặt trời lắp đặt trên mái nhà nhà máy sản xuất. Hoạt động từ tháng 6/2023 với hiệu suất vượt kỳ vọng.",
+    "image": "project_haiphong.jpg",
+    "created_at": "2024-01-12 14:30:00"
+  },
+  {
+    "id": 3,
+    "name": "Trang trại năng lượng mặt trời TP.HCM",
+    "location": "TP.HCM, Việt Nam",
+    "capacity": "3.2 MWp",
+    "description": "Trang trại năng lượng mặt trời lớn nhất miền Nam với 8000+ tấm pin. Cung cấp điện cho hơn 5000 hộ gia đình.",
+    "image": "project_hcm.jpg",
+    "created_at": "2024-01-18 11:15:00"
+  }
+]

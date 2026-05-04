@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Tấm pin mặt trời 400W",
+        "description": "Tấm pin năng lượng mặt trời công suất cao, hiệu suất 21%, phù hợp cho các hệ thống nhà ở và thương mại",
+        "power": "400W",
+        "price": "5.500.000 VNĐ",
+        "image": "product_1777109712_Screenshot 2025-09-24 153923.png",
+        "created_at": "2024-01-15 10:30:00"
+    },
+    {
+        "name": "PIN AE 730W",
+        "description": "Công suất: 730W. \r\nHiệu suất: 23.53%.\r\nKích thước: 2383 x 1302 x 30mm. \r\nCông nghệ NType Topcon có độ suy hao thấp\r\nGiảm nguy cơ điểm nóng, cũng như tăng cường khả\r\nnăng chịu đựng cho tải cơ học. \r\nBảo hành sản phẩm 15 năm\r\nBảo hành hiệu suất 30 năm",
+        "power": "730W",
+        "price": "3.000.000 VND",
+        "image": "product_1777865265_8679.png",
+        "id": 2,
+        "created_at": "2026-05-04 03:27:45"
+    }
+]
