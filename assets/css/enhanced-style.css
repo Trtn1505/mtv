@@ -1,0 +1,93 @@
+.root {
+    --main-bg-color: white;
+    --main-text-color: black;
+    --accent-color: #007BFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    .root {
+        --main-bg-color: black;
+        --main-text-color: white;
+        --accent-color: #0056b3;
+    }
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: darken(var(--accent-color), 10%);
+}
+
+button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darken(var(--accent-color), 10%);
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--accent-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.no-motion {
+    transition: none;
+    animation: none;
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .no-motion {
+        transition: none;
+    }
+}
