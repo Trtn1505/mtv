@@ -9,7 +9,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section footer-brand-block">
-                    <h3>Công Ty TNHH ENERGY Mặt Trời Việt</h3>
+                    <h3><i class="fas fa-sun" style="color: #10b981; margin-right: 8px;"></i>ENERGY Mặt Trời Việt</h3>
                     <p>Cung cấp giải pháp điện mặt trời, lưu trữ và tối ưu chi phí cho gia đình, nhà xưởng và doanh nghiệp.</p>
 
                     <div class="footer-highlights">
@@ -37,17 +37,20 @@
                     <h3>Bản đồ & địa chỉ</h3>
                     <div class="footer-map-embed">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.9142691353354!2d105.77102057457259!3d10.023933290082686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0890004c001ad%3A0x8b322112e95e558b!2zQ8O0bmcgVHkgVE5ISCBFTkVSR1kgTeG6t3QgVHLhu51pIFZp4buHdA!5e0!3m2!1svi!2s!4v1777299663870!5m2!1svi!2s"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.9142691353354!2d105.77102007457259!3d10.023933290082686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175cac15aba5ec5%3A0x8d53f6f5b2a3b9c2!2sTP.HCM!5e0!3m2!1svi!2svn!4v1234567890"
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
-                            allowfullscreen
-                            title="Bản đồ Công Ty TNHH ENERGY Mặt Trời Việt"></iframe>
+                            allowfullscreen"
+                            title="Bản đồ Công Ty"></iframe>
                     </div>
-                    <p class="footer-address"><i class="fas fa-map-marker-alt"></i> Công Ty TNHH ENERGY Mặt Trời Việt</p>
+                    <p class="footer-address"><i class="fas fa-map-marker-alt"></i> TP.HCM, Việt Nam</p>
                 </div>
             </div>
+            
+            <!-- Admin Link (Ẩn nhỏ) -->
             <div class="footer-bottom">
-                <p>&copy; 2026 Solar Energy. Tất cả quyền được bảo lưu.</p>
+                <p>&copy; 2026 ENERGY Mặt Trời. Tất cả quyền được bảo lưu.</p>
+                <a href="/admin/login.php" class="admin-secret-link" title="Admin"><i class="fas fa-key"></i></a>
             </div>
         </div>
     </footer>
@@ -56,5 +59,6 @@
     <?php if(file_exists(__DIR__ . '/contact-widget.php') && strpos($_SERVER['PHP_SELF'], '/admin/') === false && basename($_SERVER['PHP_SELF']) !== 'login.php') { include __DIR__ . '/contact-widget.php'; } ?>
 
     <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/modern.js"></script>
 </body>
 </html>
